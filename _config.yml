@@ -1,29 +1,41 @@
-name: Howard Lucas Photographer
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.37272
 title: 'Photographer | Wedding | Lifestyle | Beauty'
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.5150376
+  brandStrength: 0.7803437
+  lightness: 1
   brandColors:
     - '#fefefe'
     - '#5f514e'
     - '#000002'
     - '#d9cdbb'
     - '#a69ba1'
-  brandStrength: 0.5
-  lightness: 0.04478361876681447
-  saturation: 0.786105346865952
-  rhythmicContrast: 0.6400162968784571
-purpose: []
+  rhythmicContrast: 0.6400163
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Howard Lucas Photographer
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.37272
+layout_spectrum: 0.4731471
